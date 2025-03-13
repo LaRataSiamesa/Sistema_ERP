@@ -10,7 +10,7 @@ export default function Dashboard1() {
   return (
     <div className="dashboard-container">
       <div className="dashboard-header">
-        <h1 className="dashboard-title">Panel de Control</h1>
+        <h1 className="dashboard-title">Dashboard</h1>
         <div className="dashboard-breadcrumb">
           <span>Inicio</span> &gt; <span className="active">Dashboard</span>
         </div>

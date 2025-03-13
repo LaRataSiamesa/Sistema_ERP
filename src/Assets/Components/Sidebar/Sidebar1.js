@@ -37,6 +37,10 @@ export default function Sidebar1() {
                 <Link to="/fiscalizacion">Fiscalización</Link>
               </li>
               <li>
+                <i className="pi pi-user"></i>
+                <a href="https://laratasiamesa.github.io/portafolio3/" target="_blank" rel="noopener noreferrer">Portafolio</a>
+              </li>
+              <li>
                 <i className="pi pi-users"></i>
                 <Link to="/recursos-humanos">Recursos Humanos</Link>
               </li>

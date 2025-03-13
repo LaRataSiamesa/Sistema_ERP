@@ -1,7 +1,6 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import { LoginButton } from "./Assets/Login/Login.js";
 import { LogoutButton } from "./Assets/Logout/Logout.js";
-import { Profile } from "./Assets/Profile/Profile.js";
 import React from 'react';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -24,7 +23,6 @@ function App() {
               <Route path="/Dashboard" element={<Dashboard />} />
               {/* Agrega más rutas aquí */}
             </Routes>
-            <Profile />
             <LogoutButton />
           </>
         ) : (
